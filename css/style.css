@@ -9,7 +9,8 @@ body {
   grid-template-rows: auto; }
 .image{
   background-image: url(../image/4.jpg);
-  height: 478px;
+  height: 492px;
+  background-repeat: round;
 }
 
 .header {
@@ -87,10 +88,13 @@ a {
   text-align: center; }
 
 .port {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   padding-bottom: 20px; }
 
+.works{
+    margin: 0px 10px;
+  }
 .see {
   display: flex;
   justify-content: center; }
@@ -119,7 +123,9 @@ a {
     margin: 30px; }
 
 .immage {
-  grid-row: 7/8; }
+  grid-row: 7/8;
+  height: 500px;
+}
 
 .gif {
   width: 100%; }
