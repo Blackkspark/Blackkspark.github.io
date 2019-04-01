@@ -7,6 +7,10 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto; }
+.image{
+  background-image: url(../image/4.jpg);
+  height: 478px;
+}
 
 .header {
   display: grid;
@@ -92,12 +96,11 @@ a {
   justify-content: center; }
   .see a {
     font-size: 20px;
-    padding: 10px; }
-  .see p {
+    padding: 10px;
     text-align: center;
     border: 1px solid #666;
-    padding: 8px 20px; }
-
+    padding: 8px 20px;}
+  
 .uploadfile {
   grid-row: 7/8;
   grid-column: 1/3;
